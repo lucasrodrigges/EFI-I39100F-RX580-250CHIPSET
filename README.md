@@ -7,6 +7,8 @@ No USB Mapping.
 
 I had to use [RealtekRTL8100.kext](https://www.insanelymac.com/forum/files/file/259-realtekrtl8100-binary/) for ethernet (already included), but depends on your network adapter.
 
+PS: I was using iMac19,1 in SMBios, but the keyboard layout didn't match mine (PT-BR ABNT2).
+
 # Setup
 
 Plataform: Desktop | Intel 9th gen 
