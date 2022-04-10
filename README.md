@@ -1,17 +1,14 @@
 # EFI 
 EFI based on [Gabriel Luchina's repository](https://github.com/luchina-gabriel/BASE-EFI-INTEL-DESKTOP-9THGEN-COFFEE-LAKE-REFRESH).  
 
-You'll need to complete "PlatformInfo" in config.plist with [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) information, using [ProperTree](https://github.com/corpnewt/ProperTree).
-
-No USB Mapping.
-
-I had to use [RealtekRTL8100.kext](https://www.insanelymac.com/forum/files/file/259-realtekrtl8100-binary/) for ethernet (already included), but depends on your network adapter.
-
-PS: I was using iMac19,1 in SMBios, but the keyboard layout didn't match mine (PT-BR ABNT2).
+ * You'll need to complete `PlatformInfo` in `config.plist` with [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) information, using [ProperTree](https://github.com/corpnewt/ProperTree). 
+ * No USB Mapping. 
+ * I had to use [RealtekRTL8100.kext](https://www.insanelymac.com/forum/files/file/259-realtekrtl8100-binary/) for ethernet (already included), but depends on your network adapter. 
+ * I was using `iMac19,1` in SMBios, but the keyboard layout didn't match mine (PT-BR ABNT2), now I'm using `iMacPro1,1`.
 
 # Setup
 
-Plataform: Desktop | Intel 9th gen 
+**Plataform: Desktop | Intel 9th gen** 
 | Type | Item |
 | ---- | ---- |
 | CPU | i3 9100F |
@@ -22,8 +19,10 @@ Plataform: Desktop | Intel 9th gen
 | MacOS | Catalina, Monterey |
 | OpenCore | 0.7.9 |
 
-# Boot Args
-`npci=0x2000`
+## Boot Args
+```
+npci=0x2000
+```
 
 # References
 [Gabriel Luchina's Tutorial (PT-BR)](https://youtu.be/PlKEHa0zeSk)
