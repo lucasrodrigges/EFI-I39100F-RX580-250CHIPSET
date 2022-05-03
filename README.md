@@ -2,7 +2,8 @@
 EFI based on [Gabriel Luchina's repository](https://github.com/luchina-gabriel/BASE-EFI-INTEL-DESKTOP-9THGEN-COFFEE-LAKE-REFRESH).  
 
  * You'll need to complete `PlatformInfo` in `config.plist` with [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) information, using [ProperTree](https://github.com/corpnewt/ProperTree). 
- * No USB Mapping. 
+ * USB Mapping (no 3.0 ports yet). 
+ * I've created the layout of my codec audio (Realtek ALC662) in `DeviceProperties`
  * I had to use [RealtekRTL8100.kext](https://www.insanelymac.com/forum/files/file/259-realtekrtl8100-binary/) for ethernet (already included), but depends on your network adapter. 
  * I was using `iMac19,1` in SMBios, but the keyboard layout didn't match mine (PT-BR ABNT2), now I'm using `iMacPro1,1`.
 
@@ -16,7 +17,7 @@ EFI based on [Gabriel Luchina's repository](https://github.com/luchina-gabriel/B
 | RAM | 2x 8gb 2666Mhz |
 | GPU | Rx 570 8Gb |
 | SMBios | iMacPro1,1 |
-| MacOS | Catalina, Monterey |
+| MacOS | Catalina - Monterey |
 | OpenCore | 0.7.9 |
 
 ## Boot Args
