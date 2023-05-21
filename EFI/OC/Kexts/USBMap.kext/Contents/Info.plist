@@ -37,14 +37,14 @@
 				</dict>
 			</dict>
 			<key>IOProviderClass</key>
-			<string>AppleUSBXHCIPCI</string>
+			<string>AppleUSBXHCISPT</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
 				<key>kUSBMuxEnabled</key>
 				<true/>
 				<key>port-count</key>
 				<data>
-				EwAAAA==
+				CgAAAA==
 				</data>
 				<key>ports</key>
 				<dict>
@@ -140,48 +140,48 @@
 					</dict>
 					<key>HS11</key>
 					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
+						<key>#port</key>
 						<data>
 						CwAAAA==
 						</data>
+						<key>UsbConnector</key>
+						<integer>3</integer>
 					</dict>
 					<key>HS12</key>
 					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
+						<key>#port</key>
 						<data>
 						DAAAAA==
 						</data>
+						<key>UsbConnector</key>
+						<integer>3</integer>
 					</dict>
 					<key>SS01</key>
 					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
+						<key>#port</key>
 						<data>
 						EQAAAA==
 						</data>
+						<key>UsbConnector</key>
+						<integer>3</integer>
 					</dict>
 					<key>SS02</key>
 					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
+						<key>#port</key>
 						<data>
 						EgAAAA==
 						</data>
+						<key>UsbConnector</key>
+						<integer>3</integer>
 					</dict>
 					<key>SS03</key>
 					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
+						<key>#port</key>
 						<data>
 						EwAAAA==
 						</data>
+						<key>UsbConnector</key>
+						<integer>3</integer>
 					</dict>
 				</dict>
 			</dict>
