@@ -1,7 +1,7 @@
 # EFI 
 EFI based on [Gabriel Luchina's repository](https://github.com/luchina-gabriel/BASE-EFI-INTEL-DESKTOP-9THGEN-COFFEE-LAKE-REFRESH).  
 
- * You'll need to complete `PlatformInfo` in `config.plist` with [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) information, using [ProperTree](https://github.com/corpnewt/ProperTree). 
+ * You'll need to replace `PlatformInfo` in `config.plist` with [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) information, using [ProperTree](https://github.com/corpnewt/ProperTree). 
  * USB Mapping (no 3.0 ports yet). 
  * I've created the layout of my codec audio (Realtek ALC662) in `DeviceProperties`
  * I had to use [RealtekRTL8100.kext](https://www.insanelymac.com/forum/files/file/259-realtekrtl8100-binary/) for ethernet (already included), but depends on your network adapter. 
