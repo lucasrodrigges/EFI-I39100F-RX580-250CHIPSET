@@ -17,7 +17,7 @@ EFI based on [Gabriel Luchina's repository](https://github.com/luchina-gabriel/B
 | RAM | 2x 8gb 2666Mhz |
 | GPU | Rx 570 8Gb |
 | SMBios | iMacPro1,1 |
-| MacOS | Catalina - Monterey - Ventura |
+| MacOS | Catalina - BigSur - Monterey - Ventura |
 | OpenCore | 0.9.2 |
 
 ## Boot Args
