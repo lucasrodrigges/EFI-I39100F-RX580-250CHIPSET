@@ -15,7 +15,7 @@ EFI based on [Gabriel Luchina's repository](https://github.com/luchina-gabriel/B
 | Motherboard | Jginyue b250 |
 | RAM | 2x 8gb 2666Mhz |
 | GPU | Rx 570 8Gb |
-| SMBios | iMacPro1,1 |
+| SMBios | iMac19,1 |
 | MacOS | Catalina - BigSur - Monterey - Ventura |
 | OpenCore | 0.9.8 |
 
