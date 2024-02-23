@@ -3,9 +3,8 @@ EFI based on [Gabriel Luchina's repository](https://github.com/luchina-gabriel/B
 
  * You'll need to replace `PlatformInfo` in `config.plist` with [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) information, using [ProperTree](https://github.com/corpnewt/ProperTree). 
  * USB Mapping (no 3.0 ports yet). 
- * I've created the layout of my codec audio (Realtek ALC662) in `DeviceProperties`
- * I had to use [RealtekRTL8100.kext](https://www.insanelymac.com/forum/files/file/259-realtekrtl8100-binary/) for ethernet (already included), but depends on your network adapter. 
- * I was using `iMac19,1` in SMBios, but the keyboard layout didn't match mine (PT-BR ABNT2), now I'm using `iMacPro1,1`.
+ <!-- * I've created the layout of my codec audio (Realtek ALC662) in `DeviceProperties` -->
+ * I'm using `iMac19,1` in SMBios.
 
 # Setup
 
@@ -18,11 +17,11 @@ EFI based on [Gabriel Luchina's repository](https://github.com/luchina-gabriel/B
 | GPU | Rx 570 8Gb |
 | SMBios | iMacPro1,1 |
 | MacOS | Catalina - BigSur - Monterey - Ventura |
-| OpenCore | 0.9.2 |
+| OpenCore | 0.9.8 |
 
 ## Boot Args
 ```
-npci=0x2000
+keepsyms=1 debug=0x100 -v
 ```
 
 # References
