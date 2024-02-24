@@ -3,7 +3,7 @@ EFI based on [Gabriel Luchina's repository](https://github.com/luchina-gabriel/B
 
  * You'll need to replace `PlatformInfo` in `config.plist` with [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) information, using [ProperTree](https://github.com/corpnewt/ProperTree). 
  * USB Mapping (no 3.0 ports yet). 
- <!-- * I've created the layout of my codec audio (Realtek ALC662) in `DeviceProperties` -->
+ * I've created the layout of my codec audio (Realtek ALC662) in `DeviceProperties`
  * I'm using `iMac19,1` in SMBios.
 
 # Setup
@@ -15,13 +15,13 @@ EFI based on [Gabriel Luchina's repository](https://github.com/luchina-gabriel/B
 | Motherboard | Jginyue b250 |
 | RAM | 2x 8gb 2666Mhz |
 | GPU | Rx 570 8Gb |
-| SMBios | iMacPro1,1 |
-| MacOS | Catalina - BigSur - Monterey - Ventura |
+| SMBios | iMac19,1 |
+| MacOS | Sonoma |
 | OpenCore | 0.9.8 |
 
 ## Boot Args
 ```
-keepsyms=1 debug=0x100 -v
+keepsyms=1 debug=0x100 alcid=5
 ```
 
 # References
