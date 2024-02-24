@@ -3,7 +3,7 @@ EFI based on [Gabriel Luchina's repository](https://github.com/luchina-gabriel/B
 
  * You'll need to replace `PlatformInfo` in `config.plist` with [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) information, using [ProperTree](https://github.com/corpnewt/ProperTree). 
  * USB Mapping (no 3.0 ports yet). 
- <!-- * I've created the layout of my codec audio (Realtek ALC662) in `DeviceProperties` -->
+ * I've created the layout of my codec audio (Realtek ALC662) in `DeviceProperties`
  * I'm using `iMac19,1` in SMBios.
 
 # Setup
