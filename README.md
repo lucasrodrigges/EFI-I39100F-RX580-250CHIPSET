@@ -21,7 +21,7 @@ EFI based on [Gabriel Luchina's repository](https://github.com/luchina-gabriel/B
 
 ## Boot Args
 ```
-keepsyms=1 debug=0x100 -v
+keepsyms=1 debug=0x100 alcid=5
 ```
 
 # References
